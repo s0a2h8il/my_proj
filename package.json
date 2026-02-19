@@ -1,0 +1,32 @@
+{
+  "name": "my_proj",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000m\u0000y\u0000_\u0000p\u0000r\u0000o\u0000j\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s0a2h8il/my_proj.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/s0a2h8il/my_proj/issues"
+  },
+  "homepage": "https://github.com/s0a2h8il/my_proj#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.2.1",
+    "morgan": "^1.10.1"
+  }
+}
