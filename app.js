@@ -5,6 +5,7 @@ const helmet = require('helmet');
 const morgan = require('morgan');
 const connectDB = require('./config/db');
 const authRoutes = require("./routes/authRoutes");
+const orgRoutes = require("./routes/orgRoutes");
 const healthRoutes = require("./routes/healthRoutes");
 // Load environment variables
 dotenv.config();
@@ -25,6 +26,7 @@ if (process.env.NODE_ENV === 'development') {
 
 // Routes
 app.use('/api/auth', authRoutes);
+app.use('/api/orgs', orgRoutes);
 app.use("/api/health", healthRoutes);
 
 // Root Endpoint
